@@ -57,15 +57,6 @@ export default function Sidebar() {
           </nav>
 
           <div className="p-4 border-t border-gray-200 dark:border-zinc-800 space-y-2">
-            <a
-              href="https://t.me/robocontest"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-3 px-4 py-3 rounded-lg text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-zinc-800 hover:text-emerald-400 transition-colors group"
-            >
-              <Send size={20} className="group-hover:text-emerald-400" />
-              <span className="text-sm font-medium">{t(language, 'sidebar.telegram')}</span>
-            </a>
             <Link
               to="/login"
               onClick={() => setMobileOpen(false)}
